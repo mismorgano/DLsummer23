@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "deeplearning-2023"
+version = "0.1.0"
+description = "A summer project for a introduction to deep learning at UG (universidad de Guanajuato)"
+authors = ["mismorgano <mismorgano@gmail.com>"]
+readme = "README.md"
+packages = [{include = "deeplearning_2023"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
